@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Registrar Calificacion:</title>
+    </head>
+    <body>
+        <form action="/regCalificacion" method="POST" id="registroform">
+            <label>Agregar Calificacion</label><br><br>
+            <label>Nombre del Alumno:</label><br>
+            <input type="text" name="alumnoCali" value=""><br>
+            <label>Nombre de la Materia:</label><br>
+            <input type="text" name="materiaCali" value=""><br>
+            <label>Calificacion:</label><br>
+            <input type="text" name="calificacion" value="">
+            <input type="submit" value="Enviar">
+        </form>
+        <form action="/promedioAlumno" method="POST" id="registroform">
+            <br><br><label>Promedio Alumno</label><br>
+            <label>Nombre del Alumno:</label><br>
+            <input type="text" name="promeAlum" value="">
+            <input type="submit" value="Enviar">
+        </form>
+        <form action="/promedioMateria" method="POST" id="registroform">
+            <br><br><label>Promedio Materia</label><br>
+            <label>Nombre de la Materia:</label><br>
+            <input type="text" name="promeMate" value="">
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
